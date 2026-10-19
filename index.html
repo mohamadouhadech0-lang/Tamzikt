@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0B1730">
+<title>ⵜⴰⵎⴰⵣⵉⵖⵜ · تعلّم الأمازيغية</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&family=Cairo:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <img class="portrait" src="portrait.jpg" alt="طفلة بلباس أمازيغي تقليدي">
+    <div class="brand"><div class="tif logo">ⵜⴰⵎⴰⵣⵉⵖⵜ</div><h1>تعلّم الأمازيغية</h1><p>التاشلحيت بحرف تيفيناغ</p></div>
+    <div class="pts" title="نقاطك">⭐ <b id="pts">0</b></div>
+  </header>
+  <nav class="tabs" id="tabs" role="tablist">
+    <button role="tab" data-t="letters" aria-selected="true">الحروف</button>
+    <button role="tab" data-t="words" aria-selected="false">الكلمات</button>
+    <button role="tab" data-t="quiz" aria-selected="false">اختبار</button>
+  </nav>
+  <main id="view"></main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
