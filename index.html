@@ -4,24 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0B1730">
-    <title>ⵜⴰⵎⵣⵉⵖⵜ - تعلّم الأمازيغية</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&family=Cairo:wght@400;600;000&display=swap">
+    <title>ⵜⴰⵎⵣⵉⵖⵜ - تعلّم الأامزيغية</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&family=Cairo:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="app">
         <header class="top">
             <img class="portrait" src="pngtree-amazigh-girl-in-traditional-red-embroidered-dress-high-angle-portrait-png-image_16594437.webp" alt="طفلة ببلباس أمازيغي تقليدي">
-            <div class="brand"><div class="tif logo">ⵜⴰⵎⵣⵉⵖⵜ</div><h1>تعلّم الأمازيغية</h1><p>التشلحيت بحرف تيفيناغ</p></div>
+            <div class="brand">
+                <div class="tif logo">ⵜⴰⵎⵣⵉⵖⵜ</div>
+                <h1>تعلّم الأمازيغية</h1>
+                <p>التشلحيت بحرف تيفيناغ</p>
+            </div>
             <div class="pts" title="النقاط">⭐ <b id="pts">0</b></div>
         </header>
+
         <nav class="tabs" id="tabs" role="tablist">
             <button role="tab" data-t="letters" aria-selected="true">الحروف</button>
             <button role="tab" data-t="words" aria-selected="false">الكلمات</button>
             <button role="tab" data-t="quiz" aria-selected="false">اختبار</button>
         </nav>
+
         <main id="view"></main>
     </div>
+
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
